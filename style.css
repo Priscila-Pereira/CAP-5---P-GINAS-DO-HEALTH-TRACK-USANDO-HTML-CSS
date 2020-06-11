@@ -1,0 +1,40 @@
+/* object-fit: como o objeto se relaciona em relação ao contêiner, 
+cover para preencher mantendo a proporção  */
+/* object-position: movimentar a imagem, 
+eixo x esquerda para direita e eixo y embaixo em cima */
+/* height: 400px diminuir o tamanho da imagem*/
+
+.imagem-carrossel {
+    object-fit: cover; 
+    object-position: 0 80%;
+    height: 600px;
+}
+
+.fonte-titulo {
+  font-family: 'Anton', sans-serif;
+}
+
+.texto-cor-especial {
+  color: #8D0606!important;
+}
+
+
+.card-largura {
+  max-width: 18rem;
+}
+
+.card-imagem-posicao {
+  height:200px;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.btn-cor-especial {
+  background-color: #8D0606;
+  color: white;
+}
+
+.borda-cor-especial {
+  border-color: #8D0606;
+}
+
